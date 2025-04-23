@@ -1,7 +1,8 @@
 mode: immediate
 branchName: ${issue.number}
 branches:
-  - name: develop
+  - label: '*'
+    name: develop
     prefix: issues/
 
 autoLinkIssue: true
