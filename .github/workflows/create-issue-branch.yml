@@ -5,11 +5,6 @@ on:
     types: [ opened ]
   pull_request:
     types: [ opened, closed ]
-    
-permissions:
-  contents: write
-  issues: write
-  pull-requests: write
   
 jobs:
   create-branch:
