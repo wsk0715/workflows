@@ -1,0 +1,18 @@
+mode: immediate
+branchName: issue-${issue.number}
+branches:
+  - label: Scope - Frontend
+    name: develop
+  - label: Scope - Backend
+    name: develop
+  - name: develop
+
+autoLinkIssue: true
+autoCloseIssue: true
+openPR: true
+
+copyIssueDescriptionToPR: true
+copyIssueAssigneeToPR: true
+copyIssueLabelsToPR: true
+copyIssueProjectsToPR: true
+copyIssueMilestoneToPR: true
