@@ -1,10 +1,6 @@
 mode: immediate
-branchName: issue-${issue.number}
+branchName: issues/${issue.number}
 branches:
-  - label: Scope - Frontend
-    name: develop
-  - label: Scope - Backend
-    name: develop
   - name: develop
 
 autoLinkIssue: true
