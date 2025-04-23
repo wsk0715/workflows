@@ -1,0 +1,14 @@
+name: Auto create branch from issue
+
+on:
+  issues:
+    types: [ opened ]
+
+jobs:
+  create-branch:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Create branch from issue
+        uses: robvanderleek/create-issue-branch@main
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
