@@ -1,16 +1,27 @@
-mode: immediate
+mode: immediate # 이슈 생성 즉시 실행
+
+# 브랜치 생성 규칙
 branchName: ${issue.number}
 branches:
   - label: "*"
-    name: develop
-    prefix: issues/
+    name: "develop"
+    prefix: "issues/"
+  - label: "Type: Documentation :memo:"
+    skip: true
 
+# Pull Request 설정
+openPR: true
 autoLinkIssue: true
 autoCloseIssue: true
-openPR: true
+autoDeleteBranch: true
 
 copyIssueDescriptionToPR: true
-copyIssueAssigneeToPR: true
 copyIssueLabelsToPR: true
+copyIssueAssigneeToPR: true
 copyIssueProjectsToPR: true
 copyIssueMilestoneToPR: true
+
+copyPullRequestTemplate: true
+prSkipCI: true
+
+commentMessage: "Branch created for issue: #${issue.number} - ${issue.title}"
