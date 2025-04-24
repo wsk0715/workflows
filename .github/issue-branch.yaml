@@ -1,7 +1,7 @@
 mode: immediate
 branchName: ${issue.number}
 branches:
-  - label: '*'
+  - label: "*"
     name: develop
     prefix: issues/
 
