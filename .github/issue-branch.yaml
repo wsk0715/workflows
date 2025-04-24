@@ -19,7 +19,7 @@ copyIssueDescriptionToPR: true
 copyIssueLabelsToPR: true
 copyIssueAssigneeToPR: true
 # copyIssueProjectsToPR: true
-copyIssueMilestoneToPR: true
+# copyIssueMilestoneToPR: true
 
 copyPullRequestTemplate: true
 prSkipCI: true
