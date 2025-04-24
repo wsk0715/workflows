@@ -2,7 +2,7 @@
 name: 🐛 버그 수정
 about: 의도되지 않은 동작을 수정할 때 사용하는 템플릿
 title: "[FIX] "
-labels: ["Type: Bug", "Needs-Triage"]
+labels: ["Type: Bug :bug:", "Needs-Triage :mag:"]
 assignees: []
 ---
 

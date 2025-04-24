@@ -2,7 +2,7 @@
 name: ✨ 기능 추가
 about: 새로운 기능을 추가할 때 사용하는 템플릿
 title: "[FEAT] "
-labels: ["Type: Feature", "Needs-Triage"]
+labels: ["Type: Feature :sparkles:", "Needs-Triage :mag:"]
 assignees: []
 ---
 
