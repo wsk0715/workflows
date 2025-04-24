@@ -24,4 +24,4 @@ copyIssueMilestoneToPR: true
 copyPullRequestTemplate: true
 prSkipCI: true
 
-commentMessage: "Branch ${branchName} created for issue: #${issue.number} - ${issue.title}"
+commentMessage: "Branch [${branchName}](https://github.com/${repository.owner.login}/${repository.name}/tree/${branchName}) created for issue: #${issue.number} - ${issue.title}"
