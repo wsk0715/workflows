@@ -18,7 +18,7 @@ autoDeleteBranch: true
 copyIssueDescriptionToPR: true
 copyIssueLabelsToPR: true
 copyIssueAssigneeToPR: true
-copyIssueProjectsToPR: true
+# copyIssueProjectsToPR: true
 copyIssueMilestoneToPR: true
 
 copyPullRequestTemplate: true
