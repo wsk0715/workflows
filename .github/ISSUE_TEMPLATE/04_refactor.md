@@ -1,6 +1,6 @@
 ---
 name: ♻️ 리팩터링
-about: 기존 코드를 구조적으로 개선하거나, 중복을 제거할 때 사용하는 템플릿
+about: 기존 코드를 구조적으로 개선하거나, 중복 제거 작업
 title: "[REFACTOR] "
 labels: ["Type: Refactor :recycle:", "Needs-Triage :mag:"]
 assignees: []
