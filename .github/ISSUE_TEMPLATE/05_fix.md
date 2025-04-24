@@ -1,6 +1,6 @@
 ---
 name: 🐛 버그 수정
-about: 기존 설계 목적과 다른 동작을 수정
+about: 기존 설계 목적과 다른 동작 수정
 title: "[FIX] "
 labels: ["Type: Bug :bug:", "Needs-Triage :mag:"]
 assignees: []

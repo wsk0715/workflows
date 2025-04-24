@@ -1,6 +1,6 @@
 ---
 name: ✨ 기능 구현
-about: 새로운 기능 추가 또는 기존 기능 개선
+about: 새로운 기능 추가 또는 기존 기능 개선 작업
 title: "[FEAT] "
 labels: ["Type: Feature :sparkles:", "Needs-Triage :mag:"]
 assignees: []
