@@ -24,4 +24,4 @@ copyIssueAssigneeToPR: true
 copyPullRequestTemplate: true
 prSkipCI: true
 
-commentMessage: "Branch [${branchName}](https://github.com/${repository.owner.login}/${repository.name}/tree/${branchName}) created for issue: [#${issue.number} - ${issue.title}](https://github.com/${repository.owner.login}/${repository.name}/issues/${issue.number})"
+commentMessage: "Branch [${branchName}](https://github.com/${repository.owner.login}/${repository.name}/tree/${branchName}) created for issue: #${issue.number}
