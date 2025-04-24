@@ -24,4 +24,4 @@ copyIssueMilestoneToPR: true
 copyPullRequestTemplate: true
 prSkipCI: true
 
-commentMessage: "Branch created for issue: #${issue.number} - ${issue.title}"
+commentMessage: "Branch ${branchName} created for issue: #${issue.number} - ${issue.title}"
