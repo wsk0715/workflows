@@ -1,6 +1,6 @@
 ---
 name: 🎨 UI/UX
-about: 사용자 인터페이스(UI) 및 경험(UX) 개선 작업
+about: 사용자 인터페이스(UI) 및 사용자 경험(UX) 개선
 title: "[UX] "
 labels: ["Type: UI/UX :art:", "Needs-Triage :mag:"]
 assignees: []
