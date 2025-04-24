@@ -3,11 +3,11 @@ mode: immediate # 이슈 생성 즉시 실행
 # 브랜치 생성 규칙
 branchName: ${issue.number}
 branches:
+  - label: "Type: Documentation :memo:"
+    skip: true
   - label: "*"
     name: "develop"
     prefix: "issues/"
-  - label: "Type: Documentation :memo:"
-    skip: true
 
 # Pull Request 설정
 openPR: true
