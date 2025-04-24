@@ -1,8 +1,8 @@
 ---
 name: 📝 문서 작성
-about: 기능 설명, API 명세, 개발 가이드 등의 문서 관련 작업
+about: 기능 설명, API 명세, 개발 가이드 등의 문서 작성
 title: "[DOCS] "
-labels: ["Type: Documentation :memo:", "Needs-Triage :mag:"]
+labels: ["Documentation :memo:"]
 assignees: []
 ---
 
