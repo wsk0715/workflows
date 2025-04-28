@@ -14,7 +14,7 @@ assignees: []
   (예시) 프론트-백엔드 API 연동을 위해 API 구조를 명세한다.
 -->
 
-_No Response_
+_No_Response_
 
 ### 📂 문서 작성 위치
 
@@ -23,7 +23,7 @@ _No Response_
   (예시) [Notion](https://...), [Wiki](https://...)
 -->
 
-_No Response_
+_No_Response_
 
 ## 📜 문서 작성 상세 내용
 
@@ -32,7 +32,7 @@ _No Response_
   (예시) 백엔드 API 기본 형식 설정, 응답코드 설정
 -->
 
-_No Response_
+_No_Response_
 
 ### ✅ 완료 조건
 
@@ -41,7 +41,7 @@ _No Response_
   (예시)
 -->
 
-- [ ] _No Response_
+- [ ] _No_Response_
 
 ### ⏳ 예상 소요 시간
 
@@ -49,7 +49,7 @@ _No Response_
   예상되는 작업 소요 시간을 대략적으로 입력해주세요.
 -->
 
-_No Response_
+_No_Response_
 
 ## 🔍 참고할만한 자료
 
@@ -58,4 +58,4 @@ _No Response_
   (예시) [스프링부트 @RestController 설계](https://...)
 -->
 
-_No Response_
+_No_Response_
