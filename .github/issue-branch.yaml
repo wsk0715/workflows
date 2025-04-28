@@ -3,7 +3,9 @@ mode: immediate # 이슈 생성 즉시 실행
 # 브랜치 생성 규칙
 branchName: ${issue.number}
 branches:
-  - label: "Type: Documentation :memo:"
+  - label: "Documentation :memo:"
+    skip: true
+  - label: "Bug :bug:"
     skip: true
   - label: "*"
     name: "develop"
@@ -12,8 +14,8 @@ branches:
 # Pull Request 설정
 openPR: true
 autoLinkIssue: true
-# autoCloseIssue: true
-# autoDeleteBranch: true
+autoCloseIssue: true
+autoDeleteBranch: true
 
 copyIssueDescriptionToPR: true
 copyIssueLabelsToPR: true
